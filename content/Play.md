@@ -133,14 +133,14 @@ We recommend you use the [Odyssey Downgrader](https://github.com/Istador/odyssey
 which should apply SMO version `1.0.0` to your game as a mod. This is necessary for a lot of mods to work.
 
 ::::alert{type="warning"}
-*Many* issues stem from not upgrading your copy of the [*Odyssey Downgrader*](https://github.com/Istador/odyssey-downgrade/releases) or [*LockpickRCM*](https://share.google/m5HkRJkdPopa6Mxs5).
+*Many* issues stem from not upgrading your copy of the [*Odyssey Downgrader*](https://github.com/Istador/odyssey-downgrade/releases) or [*LockpickRCM*](https://www.google.com/search?q=lockpick_rcm+latest+version).
 If you're having trouble downgrading SMO, try updating both.
 ::::
 
 To get started, make sure:
 
 - You have the cartridge or digital version inserted.
-- You have dumped your Switch keys using [Lockpick RCM](https://share.google/m5HkRJkdPopa6Mxs5).
+- You have dumped your Switch keys using [Lockpick RCM](https://www.google.com/search?q=lockpick_rcm+latest+version).
 
 :separator{label="Once everything is setup..."}
 
@@ -168,28 +168,56 @@ To get started, make sure:
 ::::
 
 ::::alert{type="info"}
-This will take 6 GB of space on your sd card since it applies as a mod.
-::::
-
-::::alert{type="info"}
-If SMO crashes on launch please remove & reinsert the cartridge & try again.
+> This will take 5.2 GB of space on your sd card since it applies as a mod.
+> 
+> If SMO crashes on launch please remove & reinsert the cartridge & try again.
 ::::
 
 ### Installing SMOO
+- There are 2 different ways to install SMOO please select *one* of them
+
 ::::alert{type="info"}
 Make sure you have access of your Switch's SD card.
 ::::
 
-- There are 2 different ways to install SMOO please select *one* of them
-
-::::dropdown{title="Atmosphere"}
-temp
+::::dropdown{title="Drag & Drop"}
 ::::
+
+:::::c-card
+Extract the `ZIP`
+![SMOO zip](/img/temp.png)
+:::::
+
+:::::c-card
+Copy the `atmosphere` folder & paste it in the `ROOT:` of the SD card.
+![Atmosphere SMOO](/img/temp.png)
+:::::
+
+- You're all set!
 
 ::::dropdown{title="SimpleModManager"}
-temp
-::::
 
+:::::c-card
+First download [SimpleModManager](https://github.com/nadrino/SimpleModManager/releases) & place it in the `switch` folder.
+![SMM install](/img/temp.png)
+:::::
+
+:::::c-card
+- In the `ROOT:` of the SD card make a `mods` folder then make an `Super Mario Odyssey` folder.
+- Copy the `atmosphere` folder & rename it to `SMOO`
+![Folder](/img/temp.png)
+:::::
+
+:::::c-card
+- Turn on your console and go to the **hbmenu** in screenshots :s-icon{name="screenshot"} .
+- Open SimpleModManager
+- You should see the `Super Mario Odyssey` folder that you created; open it and you should see `SMOO` select it and apply it.
+![SMM hbmenu](/img/temp.png)
+:::::
+
+- You're all set!
+
+::::
 :::
 
 :::dropdown{title="Playing on an emulator"}
@@ -206,7 +234,7 @@ Right-click Super Mario Odyssey and select `Open Mods Directory`
 :::::
 
 :::::c-card
-Insert the extracted ZIP into the directory
+Insert the extracted `ZIP` into the directory
 ![Ryu Folder](img/ryu_directory.png)
 :::::
 
@@ -283,9 +311,6 @@ Make sure that SMOO is enabled in `Configure Game`
 :::
 
 - Once you're finished please close your game and relaunch it to connect to the server.
-
-
-
 
 ::
 
