@@ -1,8 +1,6 @@
 <script setup lang="ts">
-const compatibility = useRoute().params.compatibility
-const { data: page } = await useAsyncData(`${compatibility}`, () => {
-    // See faq.vue for `.first()` thoughts.
-  return queryCollection('content').path(`/compatibility`).first()
+const { data: page } = await useAsyncData('compatibility', () => {
+  return queryCollection('content').path('/compatibility').first()
 })
 </script>
 
