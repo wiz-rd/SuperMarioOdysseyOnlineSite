@@ -6,9 +6,9 @@
 # Authors
 - [@Muz-dev](https://github.com/Muz-dev)
 - [@wiz-rd](https://github.com/wiz-rd)
+- [@Skylanderfree](https://github.com/Skylanderfree)
 
 ## Editors
-- [@Skylanderfree](https://github.com/Skylanderfree)
 - [@2Fast2Cool](https://github.com/2Fast2cool)
 ## Installation
 

@@ -155,14 +155,14 @@ To get started, make sure:
 
 ::::row
 :::::c-card{description="Patch not installed"}
-![Patch not installed](/img/downgrade_not_ready.jpg)
+![Patch not installed](/img/downgrade_not_ready.jpg){width="500"}
 > Select 'Add downgrade'
 
 > Select 'Add Patch'
 
 :::::
 :::::c-card{description="Patch installed"}
-![Patch installed](/img/downgrade_ready.jpg)
+![Patch installed](/img/downgrade_ready.jpg){width="500"}
 > Press :s-icon{name="b"} to exit
 :::::
 ::::
@@ -181,38 +181,38 @@ Make sure you have access of your Switch's SD card.
 ::::
 
 ::::dropdown{title="Drag & Drop"}
-::::
 
 :::::c-card
 Extract the `ZIP`
-![SMOO zip](/img/temp.png)
+![SMOO zip](/img/smoo-extract.png){width="400"}
 :::::
 
 :::::c-card
 Copy the `atmosphere` folder & paste it in the `ROOT:` of the SD card.
-![Atmosphere SMOO](/img/temp.png)
+![Atmosphere SMOO](/img/smoo-atmosphere.png){width="600"}
 :::::
 
 - You're all set!
+::::
 
 ::::dropdown{title="SimpleModManager"}
 
 :::::c-card
 First download [SimpleModManager](https://github.com/nadrino/SimpleModManager/releases) & place it in the `switch` folder.
-![SMM install](/img/temp.png)
+![SMM install](/img/smm-folder.png){width="400"}
 :::::
 
 :::::c-card
 - In the `ROOT:` of the SD card make a `mods` folder then make an `Super Mario Odyssey` folder.
 - Copy the `atmosphere` folder & rename it to `SMOO`
-![Folder](/img/temp.png)
+![Folder](/img/smm-smoo.png){width="400"}
 :::::
 
 :::::c-card
 - Turn on your console and go to the **hbmenu** in screenshots :s-icon{name="screenshot"} .
 - Open SimpleModManager
 - You should see the `Super Mario Odyssey` folder that you created; open it and you should see `SMOO` select it and apply it.
-![SMM hbmenu](/img/temp.png)
+![SMM hbmenu](/img/smm-mods.jpg)
 :::::
 
 - You're all set!
@@ -230,17 +230,17 @@ Make sure that your game version is on `1.0.0`
 
 :::::c-card
 Right-click Super Mario Odyssey and select `Open Mods Directory`
-![Ryu Config](img/ryu_config.png)
+![Ryu Config](img/ryu_config.png){width="500"}
 :::::
 
 :::::c-card
 Insert the extracted `ZIP` into the directory
-![Ryu Folder](img/ryu_directory.png)
+![Ryu Folder](img/ryu_directory.png){width="500"}
 :::::
 
 :::::c-card
 Enable SMOO in `Manage Mods`
-![Ryu Mods](img/ryu_mods.png)
+![Ryu Mods](img/ryu_mods.png){width="500"}
 :::::
 
 - You are all set!
@@ -250,17 +250,17 @@ Enable SMOO in `Manage Mods`
 
 :::::c-card
 Right-click Super Mario Odyssey and select `Configure Game`
-![Yuzu Config](img/yuzu_config.png)
+![Yuzu Config](img/yuzu_config.png){width="500"}
 :::::
 
 :::::c-card
 Select `Import Mod from ZIP` 
-![Yuzu Import](img/yuzu_import.png)
+![Yuzu Import](img/yuzu_import.png){width="500"}
 :::::
 
 :::::c-card
 Make sure that SMOO is enabled in `Configure Game`
-![Yuzu Mods](img/yuzu_mods.png)
+![Yuzu Mods](img/yuzu_mods.png){width="500"}
 :::::
 
 - You are all set!
@@ -277,11 +277,11 @@ Make sure that SMOO is enabled in `Configure Game`
 
 ::::row
 :::::c-card{description="IP Address"}
-![SMOO IP](/img/smoo_ip.jpg)
+![SMOO IP](/img/smoo_ip.jpg){width="600"}
 :::::
 
 :::::c-card{description="Port"}
-![SMOO Port](/img/smoo_port.jpg)
+![SMOO Port](/img/smoo_port.jpg){width="600"}
 :::::
 ::::
 
@@ -298,11 +298,11 @@ Make sure that SMOO is enabled in `Configure Game`
 
 ::::row
 :::::c-card{description="Change IP Address"}
-![SMOO IP Alt](/img/smoo_ip2.jpg)
+![SMOO IP Alt](/img/smoo_ip2.jpg){width="600"}
 :::::
 
 :::::c-card{description="Change Server Port"}
-![SMOO Port Alt](/img/smoo_port2.jpg)
+![SMOO Port Alt](/img/smoo_port2.jpg){width="600"}
 :::::
 ::::
 

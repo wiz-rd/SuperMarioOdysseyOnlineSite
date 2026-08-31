@@ -81,7 +81,7 @@ which include cords from the in-game map or sending a cutout of a screenshot.
 
 ::::dropdown{title="Sardines"}
 - It is very similar to Hide & Seek but it works differently. The :s-icon{name="sardines_group"}Sardines Pack
-(one player) hides while everyone else :s-icon{name="sardines_solo"}Single Sardine searches & when a player finds the them, they join them and it will eventually start to form a larger group. The last player to find the group ends that round.
+(one player) hides while everyone else :s-icon{name="sardines_solo"}Single Sardine searches & when a player finds them, they join them and it will eventually start to form a larger group. The last player to find the group ends that round.
 
 - Same rules when asking for hints.
 ::::
